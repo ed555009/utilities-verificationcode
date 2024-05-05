@@ -10,7 +10,7 @@ namespace Utilities.VerificationCode.Interfaces
 		/// </summary>
 		/// <param name="length">The length of the verification code to generate. Default is 6.</param>
 		/// <returns>A string representing the generated verification code.</returns>
-		/// <exception cref="ArgumentOutOfRangeException">Thrown when the length is less than 2 or greater than 8.</exception>
+		/// <exception cref="System.ArgumentOutOfRangeException">Thrown when the length is less than 2 or greater than 8.</exception>
 		string Generate(int length = 6);
 	}
 }
